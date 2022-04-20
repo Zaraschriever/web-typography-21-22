@@ -25,19 +25,11 @@ body {
 	background-color: black;
 	height: 100vh;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-iframe {
-	scale: 0%;
-	transform: rotate(1turn);
-}
-
-.sound0 iframe {
-	transform: rotate(1turn);
-	scale: 100%;
-}
 
 /* **********************************************
 The first paragraph, with extended timing for 
