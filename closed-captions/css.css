@@ -9,6 +9,8 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	font-size: 30px;
+	color: white;
 
 }
 #closed-captions .on {
@@ -44,7 +46,8 @@ iframe {
    }
 
 .sound0 iframe {   
-	animation-duration: 0.9s;
+	transition-timing-function: ease-out;
+	animation-duration: 2s;
     animation-name: createBox;
     position: relative;
     width: 560px;
@@ -62,8 +65,8 @@ iframe {
 
     }
     to{
-        height: 98px;
-        width: 98px;
+        height: 315px;
+        width: 560px;
     }
 }
 
@@ -162,5 +165,19 @@ iframe {
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 iframe {
-	transform: rotate(1turn);
+	animation: shake 0.5s;
 }
+
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
