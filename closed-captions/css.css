@@ -9,6 +9,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+
 }
 #closed-captions .on {
 	opacity: 1;
@@ -24,13 +25,47 @@ Feel free to adjust the defaults to your needs.
 body {
 	background-color: black;
 	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr auto auto 1fr;
+}
+
+#closed-captions {
+	grid-column-start: 2;
+	grid-row-start: 3;
+	justify-self: center;
+   }
+
+iframe {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	width: 10px;
+	height: 10px;
+   }
+
+.sound0 iframe {   
+	animation-duration: 0.9s;
+    animation-name: createBox;
+    position: relative;
+    width: 560px;
+    height: 315px;
+    margin: 10px;
+    float: left;
 }
 
 
+
+@keyframes createBox{
+    from{
+        height:0px;
+        width: 0px;
+
+    }
+    to{
+        height: 98px;
+        width: 98px;
+    }
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
