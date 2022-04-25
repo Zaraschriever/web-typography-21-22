@@ -11,7 +11,12 @@ Feel free to adjust the defaults to your needs.
 	position: absolute;
 	font-size: 30px;
 	color: white;
+}
 
+#closed-captions {
+	justify-self: center;
+	display: flex;
+    justify-content: center;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -41,22 +46,17 @@ body {
 iframe {
 	grid-column-start: 2;
 	grid-row-start: 2;
-	width: 10px;
-	height: 10px;
+	clip-path: inset(4.7em 0);
    }
 
 .sound0 iframe {   
 	transition-timing-function: ease-out;
-	animation-duration: 2s;
+	animation-duration: 3s;
     animation-name: createBox;
     position: relative;
     width: 560px;
-    height: 315px;
-    margin: 10px;
-    float: left;
+    height: 415px
 }
-
-
 
 @keyframes createBox{
     from{
@@ -65,7 +65,7 @@ iframe {
 
     }
     to{
-        height: 315px;
+        height: 415px;
         width: 560px;
     }
 }
@@ -148,6 +148,10 @@ You probably want to change the styling.
 	font-family: "brenner slab";
 }
 
+#closed-captions p.voice3.p6.on {
+	font-size: 100px;
+}
+
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -157,7 +161,11 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	background: yellow;
+	background: red;
+}
+
+.sound2 {
+	background: black;
 }
 
 iframe {
