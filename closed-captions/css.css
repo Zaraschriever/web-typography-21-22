@@ -67,8 +67,8 @@ iframe {
 	animation-duration: 3s;
     animation-name: createBox;
     position: relative;
-    width: 560px;
-    height: 415px
+    width: 660px;
+    height: 515px
 }
 
 @keyframes createBox{
@@ -77,8 +77,8 @@ iframe {
         width: 0px;
     }
     to{
-        height: 415px;
-        width: 560px;
+        height: 515px;
+        width: 660px;
     }
 }
 
