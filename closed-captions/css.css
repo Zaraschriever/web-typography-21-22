@@ -168,6 +168,25 @@ You probably want to change the styling.
 	font-size: 22px;
 }
 
+#closed-captions p.voice2.p3.on span:last-of-type {
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+	50% {transform: rotate(180deg);}
+  }
+
+
+#myVideo {
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: fill;
+  }
+
 
 /* **********************************************
 Sounds.
@@ -177,10 +196,6 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: red;
-}
-
 .sound2 {
 	background: black;
 }
@@ -206,3 +221,19 @@ iframe {
 	90% { transform: translate(1px, 2px) rotate(0deg); }
 	100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+.sound0 #myVideo.tunnel {
+	display: block;
+} 
+
+.sound1 #myVideo.tunnel {
+	display: none;
+}
+
+.sound1 #myVideo {
+	display: block;
+}
+
+.sound2 #myVideo {
+	display: none;
+}
