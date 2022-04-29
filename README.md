@@ -1,5 +1,7 @@
 # Web Typography, 2020/2021
 
+## Opdracht
+
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
 
 Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
@@ -8,7 +10,42 @@ Dat kan visueel sterker.
 
 En dat gaan jullie doen.
 
-## Leerdoelen
+## Typografische restricties
+Ik heb ervoor gekozen om het Brenner font te gebruiken voor mijn video. Het fijne hieraan vind ik dat je heel veel verschillende versies hebt, zodat elke zin of elk woord weer een andere uitdrukking zou kunnen hebben. Ook is het fijn dat je zeker weet hoe het er uit komt te zien. Wanneer ik voor het systeemfont gekozen had, zou het er voor mezelf wel mooi uit hebben gezien maar wanneer iemand in zijn browser andere lettertypes ziet, komt misschien het gevoel wat ik wilde overbrengen niet goed over. Vandaar dat ik dus uiteindelijk voor het Brenner font gekozen had.
+
+## Ontwerpkeuzes
+Ik heb natuurlijk het lettertype van de video veranderd maar ik heb ook met de achtergrond en kleuren gespeeld. Hieronder zal ik mijn ontwerpkeuzes onderbouwen;
+
+### Lettertype
+Voor het lettertype heb ik zoals eerder benoemd het font "Brenner" gebruikt, hiervan heb ik verschillende font-styles gebruikt. Ik heb tussen de twee verschillende stemmen een onderscheidt gemaakt door stem 1 cursief te maken en stem 2 normaal. Ook heb ik stem 1 aan de linkerkant van het scherm geplaatst en stem 2 aan de rechterkant, hierdoor ziet het er meer uit als echt een "gesprek" inplaats van dat alle tekst achter elkaar op dezelfde plek langs komt.
+
+Wanneer er iets geroepen wordt zoals 'fuck off, skin job!' heb ik het font hiervan bold en veel groter gemaakt, hierdoor komt het wat agressiever over. 
+Op het stukje waar stem 2, drie keer achter elkaar "within cells interlinked" moet herhalen, bleef deze tekst tijdens het herhalen gewoon staan. Wanneer je er geen geluid bij hoort zal je dus niet weten dat hij het drie keer herhaald. Daarom heb ik wanneer het zinnetje één keer gezegd is de hele zin langzaam weg laten faden, zo zie je dat het dus echt drie keer gezegd wordt.
+
+### Video
+De video heb ik op bepaalde momenten ook bewerkt om beter het gevoel over te laten komen. Zo heb ik aan het begin van de video, de video van klein naar groot laten animeren. Ik vond dit een leuk begin van de video en dit paste ook goed bij het geluid en de beweging in de video.
+
+Even later wanneer je een soort alarm af hoort gaan heb ik de video laten "trillen", hierdoor krijg je een beetje hetzelfde gevoel als wanneer je het alarm wel hoort.
+
+### Beschrijvingen
+Om ervoor te zorgen dat de persoon die het filmpje kijkt ook zonder geluid weet wanneer er een geluid afspeeld, heb ik deze geluiden kort omschreven en boven het filmpje geplaatst om het moment dat dit geluid afspeeld. 
+
+### Achtergrond
+Om de beschrijvingen van de geluiden die ik hierboven heb benoemd aan te sterken heb ik ervoor gekozen om hier ook nog een bijpassend achtergrond filmpje aan toe te voegen. Ik vind dat dat overal echt een goede toevoeging is omdat het zo de sfeer van de video ook overbrengt. 
+
+Aan het begin heb ik gekozen voor een soort licht tunnel, omdat ik het heel erg bij het geluid vond passen en doordat de video hier steeds groter wordt lijkt het alsof de video uit de tunnel komt.
+
+Vervolgens bij het harde tril geluid en het schudden van de video, heb ik nog een soort rode bliksemschicht toegevoegd, hierdoor krijg je nog meer het gevoel van een soort alarm dat afgaat.
+
+Er zitten drie hoge piepen in de video, hierbij heb ik een audio spectrum van een hoge toon als achtergrondvideo geplaatst, ik vind dat je hierdoor niet alleen leest dat er een hoge piep is maar het ook bijna "voelt".
+
+In de scene waar hij de vragen beantwoord in de witte box zit een hele irritante lange piep achter waar je een soort van ongemakkelijk van wordt, ik wilde dit gevoel ook in een beeld overbrengen. Uiteidelijk heb ik voor een ruis dat over je beeldscherm heen gaat gekozen omdat ik hier een beetje hetzelfe gevoel bij kreeg.
+
+De laatste scene lijkt om de scene hiervoor maar inplaats van een hoge piep zit er nu een soort onheilspellend muziekje onder. Ik wilde hier wel goed het verschil tussen laten zien en heb daarom voor een totaal ander filmpje gekozen. Op het filmpje zie je een soort blauwe golven die op de maat van de muziek bewegen en er zweven witte sterren naar boven. Ik vind dat dit beeld een mysterious en bijna dromerig gevoel over brengt.
+
+Wanneer het in het filmpje behalve de stemmen helemaal stil is heb ik ervoor gekozen om de achtergrond abrupt helemaal zwart te maken. Het geluid stopt namelijk in de video ook ineens.
+
+<!-- ## Leerdoelen
 
 - Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
 - Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
@@ -80,4 +117,4 @@ Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vr
 
 Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
 
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen. -->
