@@ -176,6 +176,11 @@ You probably want to change the styling.
 	50% {transform: rotate(180deg);}
   }
 
+#closed-captions p.voice1.p19.on {
+	transform: scale(1.3);
+	transition: 2s;
+}
+
 
 
 
@@ -186,7 +191,6 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
 .sound2 {
 	background: black;
 }
@@ -254,3 +258,16 @@ iframe {
 .sound10 #myVideo.ruis {
 	display: none;
 }
+
+#myVideo.golf {
+	display: block;
+	opacity: 0;
+}
+.sound11 #myVideo.golf {
+	opacity: 1;
+	transition: 2s;
+}
+
+/* .sound10 #myVideo.golf {
+	display: none;
+} */
