@@ -97,7 +97,7 @@ You probably want to change the styling.
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
+	font-weight: 400;
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
@@ -230,10 +230,18 @@ iframe {
 	display: none;
 }
 
-.sound1 #myVideo {
+.sound1 #myVideo.rood {
 	display: block;
 }
 
-.sound2 #myVideo {
+.sound2 #myVideo.rood {
+	display: none;
+}
+
+.sound8 #myVideo.ruis {
+	display: block;
+}
+
+.sound10 #myVideo.ruis {
 	display: none;
 }
