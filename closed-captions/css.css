@@ -47,7 +47,7 @@ body {
 	height: 100vh;
 	display: grid;
     grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 1fr auto auto 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #closed-captions {
@@ -80,6 +80,20 @@ iframe {
         height: 480px;
         width: 660px;
     }
+}
+
+#beschrijving {
+	grid-column-start: 2;
+	grid-row-start: 1;	
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+#beschrijving p {
+	color: white;
+	font-size: 20px;
 }
 
 /* **********************************************
@@ -272,3 +286,35 @@ iframe {
 	opacity: 0;
 	transition: 2s;
 }
+
+/* beschrijvingen */
+.sound0 #beschrijving p::after {
+	content: "[Industrial sounds]";
+}
+
+.sound1 #beschrijving p::after {
+	content: "[Hard shaking sound]";
+}
+
+.sound4 #beschrijving p::after {
+	content: "[High beep]";
+}
+
+.sound5 #beschrijving p::after {
+	content: "";
+}
+
+.sound8 #beschrijving p::after {
+	content: "[Irritating high beep]";
+}
+
+.sound10 #beschrijving p::after {
+	content: "[Irritating high beep stops]";
+}
+
+.sound11 #beschrijving p::after {
+	content: "[Ominous sound]";
+}
+
+
+
