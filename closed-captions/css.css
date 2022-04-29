@@ -68,7 +68,7 @@ iframe {
     animation-name: createBox;
     position: relative;
     width: 660px;
-    height: 515px
+    height: 480px
 }
 
 @keyframes createBox{
@@ -77,7 +77,7 @@ iframe {
         width: 0px;
     }
     to{
-        height: 515px;
+        height: 480px;
         width: 660px;
     }
 }
@@ -177,15 +177,6 @@ You probably want to change the styling.
   }
 
 
-#myVideo {
-	display: none;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	width: 100vw;
-	height: 100vh;
-	object-fit: fill;
-  }
 
 
 /* **********************************************
@@ -222,6 +213,16 @@ iframe {
 	100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
+#myVideo {
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: fill;
+}  
+
 .sound0 #myVideo.tunnel {
 	display: block;
 } 
@@ -235,6 +236,14 @@ iframe {
 }
 
 .sound2 #myVideo.rood {
+	display: none;
+}
+
+.sound4 #myVideo.geluid {
+	display: block;
+}
+
+.sound5 #myVideo.geluid {
 	display: none;
 }
 
