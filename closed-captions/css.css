@@ -155,7 +155,7 @@ You probably want to change the styling.
 
 #closed-captions p.voice3.p6.on {
 	font-size: 100px;
-	margin-top: -20px;
+	margin-top: -40px;
 }
 
 #closed-captions p.voice2.p41.off, #closed-captions p.voice2.p42.off {
@@ -288,11 +288,11 @@ iframe {
 }
 
 .sound8 #beschrijving p::after {
-	content: "[Irritating high beep]";
+	content: "[Irritating high beeping]";
 }
 
 .sound10 #beschrijving p::after {
-	content: "[Irritating high beep stops]";
+	content: "[Irritating high beeping stops]";
 }
 
 .sound11 #beschrijving p::after {
