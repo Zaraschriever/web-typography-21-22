@@ -166,13 +166,6 @@ You probably want to change the styling.
 	font-size: 22px;
 }
 
-#closed-captions p.voice1.p19.on {
-	transform: scale(1.3);
-	transition: 2s;
-}
-
-
-
 
 /* **********************************************
 Sounds.
