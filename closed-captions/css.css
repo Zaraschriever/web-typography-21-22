@@ -240,19 +240,27 @@ iframe {
 	display: none;
 }
 
-.sound8 #myVideo.geluid {
+.sound6 #myVideo.geluid {
 	display: block;
 }
 
-.sound9 #myVideo.geluid {
+.sound7 #myVideo.geluid {
 	display: none;
 }
 
-.sound9 #myVideo.ruis {
+.sound9 #myVideo.geluid {
 	display: block;
 }
 
+.sound10 #myVideo.geluid {
+	display: none;
+}
+
 .sound10 #myVideo.ruis {
+	display: block;
+}
+
+.sound11 #myVideo.ruis {
 	display: none;
 }
 
@@ -260,12 +268,12 @@ iframe {
 	display: block;
 	opacity: 0;
 }
-.sound11 #myVideo.golf {
+.sound12 #myVideo.golf {
 	opacity: 1;
 	transition: 2s;
 }
 
-.sound12 #myVideo.golf {
+.sound13 #myVideo.golf {
 	opacity: 0;
 	transition: 2s;
 }
@@ -279,6 +287,10 @@ iframe {
 	content: "[Hard shaking sound]";
 }
 
+.sound2 #beschrijving p::after {
+	content: "";
+}
+
 .sound4 #beschrijving p::after {
 	content: "[High beep]";
 }
@@ -287,15 +299,31 @@ iframe {
 	content: "";
 }
 
-.sound8 #beschrijving p::after {
-	content: "[Irritating high beeping]";
+.sound6 #beschrijving p::after {
+	content: "[High beep]";
+}
+
+.sound7 #beschrijving p::after {
+	content: "";
+}
+
+.sound9 #beschrijving p::after {
+	content: "[High beep]";
 }
 
 .sound10 #beschrijving p::after {
-	content: "[Irritating high beeping stops]";
+	content: "";
+}
+
+.sound10 #beschrijving p::after {
+	content: "[Irritating high beeping]";
 }
 
 .sound11 #beschrijving p::after {
+	content: "[Irritating high beeping stops]";
+}
+
+.sound12 #beschrijving p::after {
 	content: "[Ominous sound]";
 }
 
