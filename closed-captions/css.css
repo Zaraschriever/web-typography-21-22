@@ -154,8 +154,9 @@ You probably want to change the styling.
 }
 
 #closed-captions p.voice3.p6.on {
-	font-size: 100px;
-	margin-top: -40px;
+	font-size: 80px;
+	font-weight: 800;
+	margin-top: -60px;
 }
 
 #closed-captions p.voice2.p41.off, #closed-captions p.voice2.p42.off {
